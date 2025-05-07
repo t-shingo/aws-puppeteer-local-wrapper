@@ -1,5 +1,5 @@
-# sample-aws-synthetics
-- localでPuppetterによる自動テストを行う。
+# はじめに
+- localでPuppeteerによる自動テストを行う。
 
   - ただ、localhostはテストしづらい。本Containerが単体でネットワークを組むため。
   - もし他のContainer上のWebアプリをテストする時は、docker-compose等で組み込んであ
