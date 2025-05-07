@@ -21,7 +21,7 @@ const flowBuilderBlueprint = async function () {
   
   // 指定したURLへ移動する
   await synthetics.executeStep(step + '_' + (task++) + '_navigateToUrl', async function (timeoutInMillis = 30000) {
-    await page.goto('https://tagawa.dev/php/')
+    await page.goto('https://shingo.dev/php/')
       .catch(e => console.log('[goToAdmin: 1] timeout exceed. process to next operation.'))
   })
 
